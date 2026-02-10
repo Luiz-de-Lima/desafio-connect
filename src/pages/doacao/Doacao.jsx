@@ -39,7 +39,7 @@ export default function Doacao() {
       <h1>Doação</h1>
       <div className={S.cardData}>
          {cardData.map((card) => (
-        <>
+        
           <Card
             key={card.id}
             image={card.image}
@@ -48,7 +48,7 @@ export default function Doacao() {
             text={card.text}
           />
         
-         </>
+        
       ))}
       </div>
      

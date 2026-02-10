@@ -7,7 +7,7 @@ import imgCarreiraPrimeiroEmp from "../../assets/images/imgCarreiraPrimeiroEmp.p
 import S from "./eventos.module.scss";
 
 export default function EventosEP() {
-  "Atividade: Palestra motivacional sobre liderança jovem e transformação social.Impacto: Inspirar adolescentes a se tornarem agentes de mudança em suas comunidades.";
+ 
   const cardData = [
     {
       id: 1,
