@@ -1,0 +1,26 @@
+@use '../../globalStyles.scss';
+
+.eventos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1024px;
+
+  h1 {
+    text-align: center;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 3.75rem;
+    color:globalStyles.$primary-color ;
+   padding-top: 5rem;
+  }
+  .cardData {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+}
