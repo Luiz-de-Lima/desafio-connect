@@ -1,11 +1,19 @@
-import React from 'react'
+import React from "react";
+import { Button } from "../../components/Botao/Botao";
 
-const Card = () => {
+import S from "./card.module.scss";
+
+export function Card({ image, title, description, text }) {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+    <article className={S.card}>
+      <img src={image} alt={title} className={S.cardImage} />
+      <h3>{title}</h3>
+      <p>{description}</p>
 
-export default Card
+      <Button text={text} className={S.buttonCard} />
+    </article>
+    
+    </>
+  );
+}

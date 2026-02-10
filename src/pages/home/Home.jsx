@@ -1,6 +1,6 @@
 import S from "./home.module.scss";
 import Banner from "../../assets/images/banner.png";
-import Button from "../../components/Botao/Botao";
+import {Button} from "../../components/Botao/Botao";
 import Footer from "../../components/Footer/Footer";
 
 export default function Home() {
@@ -34,7 +34,10 @@ export default function Home() {
           alt="Imagem de mãos segurando o globo terrestre representando a responsabilidade social e ambiental."
         />
       </main>
-      <Footer />
+      <main className={S.main}>
+        <Footer />
+        </main>
+      
     </>
   );
 }

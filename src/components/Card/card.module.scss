@@ -1,0 +1,41 @@
+@use '../../globalStyles.scss';
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  max-width: 350px;
+  
+  .cardImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    color: #1a4a8e; 
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #4a5568;
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+    line-height: 1.5;
+  }
+  .buttonCard{
+    background-color: globalStyles.$primary-color;
+    color: globalStyles.$secondary-color;
+    width: 210px;
+    height: 50px;
+    border-radius: 10px;
+
+  }
+}
