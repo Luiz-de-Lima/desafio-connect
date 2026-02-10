@@ -23,3 +23,21 @@
   }
   
 }
+@media (max-width: 768px) {
+  .doacao {
+    height: auto; // Remove a limitação de altura do desktop
+
+    h1 {
+      font-size: 2.25rem; // Diminui o título para caber no telemóvel
+      padding-top: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .cardData {
+      flex-direction: column; // Empilha os cards verticalmente como na imagem
+      height: auto; // Garante que o container cresça com os cards
+      gap: 40px; // Espaço maior entre os cards no mobile
+      padding: 0 20px;
+    }
+  }
+}
