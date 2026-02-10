@@ -5,8 +5,9 @@ import Home from "./pages/home/Home";
 import Mentoria from "./pages/mentoria/Mentoria";
 import EventosEP from "./pages/eventosEP/EventosEP";
 import Usuario from "./pages/usuario/Usuario";
-import "./globalStyles.scss";
+
 import Header from "./components/header/Header";
+import "./globalStyles.scss";
 
 export default function App() {
   return (

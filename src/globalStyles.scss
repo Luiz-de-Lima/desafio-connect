@@ -7,3 +7,18 @@
   list-style: none;
   text-decoration: none;
 }
+
+$primary-color: #205691;
+$secondary-color: #fafafa;
+
+button {
+   all: unset;
+  cursor: pointer;
+
+  touch-action: manipulation;
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+}
