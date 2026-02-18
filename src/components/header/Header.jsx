@@ -10,7 +10,7 @@ export default function Header() {
   useEffect(() => {
     function menuMobile() {
       setIsMobile(window.innerWidth <= 768);
-      if (window.innerWidth > 768) {
+      if (window.innerWidth >= 768) {
         setMenuAberto(false);
       }
     }
@@ -31,7 +31,7 @@ export default function Header() {
             />
           </Link>
         </section>
-        {!isMobile && (
+      
           <nav className={S.nav}>
             <Link className={S.link} to="/doacao">
               Doação
@@ -46,7 +46,7 @@ export default function Header() {
               Eventos
             </Link>
           </nav>
-        )}
+        
         <img
           className={S.imgUser}
           src="https://avatars.githubusercontent.com/u/64041932?v=4"

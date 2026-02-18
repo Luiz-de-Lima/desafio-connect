@@ -1,5 +1,4 @@
 .header {
-  
   height: 100px;
   display: flex;
   align-items: center;
@@ -49,7 +48,31 @@
 }
 
 @media (max-width: 768px) {
-  .imgLogo {
-    max-width: 57px;
+  .header {
+    height: 70px;
+    padding: 0 10px;
+
+    .imgLogo {
+      max-width: 45px;
+      flex-shrink: 0;
+    }
+    .nav {
+      gap: 5px;
+      justify-content: center;
+
+      .link {
+        font-size: 14px;
+        padding: 5px 5px;
+      }
+    }
+    .imgUser {
+      width: 35px;
+      height: 35px;
+      border-width: 2px;
+    }
+  }
+  .nav {
+    display: block;
+    color: #fff;
   }
 }
