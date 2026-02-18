@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../../components/Footer/Footer";
+
 import { Card } from "../../components/Card/Card";
 import imgMentoriaCarreira from "../../assets/images/imgMentoriaCarreira.jpg";
 import imgCompartilhaExp from "../../assets/images/imgCompartilhaExp.png";
@@ -50,7 +50,7 @@ export default function Mentoria() {
          
         ))}
       </div>
-      <Footer />
+     
     </section>
   );
 }

@@ -8,6 +8,7 @@ import Usuario from "./pages/usuario/Usuario";
 
 import Header from "./components/header/Header";
 import "./globalStyles.scss";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="/eventosEP" element={<EventosEP />} />
           <Route path="/usuario" element={<Usuario />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   );

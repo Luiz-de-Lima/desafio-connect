@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../../components/Footer/Footer";
 import { Card } from "../../components/Card/Card";
 import imgEmpodera from "../../assets/images/imgEmpodera.jpg";
 import imgTecTransforma from "../../assets/images/imgTecTransforma.jpg";
@@ -7,7 +6,6 @@ import imgCarreiraPrimeiroEmp from "../../assets/images/imgCarreiraPrimeiroEmp.p
 import S from "./eventos.module.scss";
 
 export default function EventosEP() {
- 
   const cardData = [
     {
       id: 1,
@@ -39,18 +37,15 @@ export default function EventosEP() {
       <h1>Eventos e Palestras</h1>
       <div className={S.cardData}>
         {cardData.map((card) => (
-          
-            <Card
-              key={card.id}
-              image={card.image}
-              title={card.title}
-              description={card.description}
-              text={card.text}
-            />
-         
+          <Card
+            key={card.id}
+            image={card.image}
+            title={card.title}
+            description={card.description}
+            text={card.text}
+          />
         ))}
       </div>
-      <Footer />
     </section>
   );
 }
